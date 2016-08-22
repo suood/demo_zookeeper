@@ -26,5 +26,7 @@ public class _8SubscribeChildChanges {
 			System.out.println(currentChilds.toString());
 		}
 	}
+	
+	// 在shell操作，可以看到对应的输出
 
 }

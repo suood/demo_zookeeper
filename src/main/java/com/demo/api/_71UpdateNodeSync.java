@@ -43,5 +43,10 @@ public class _71UpdateNodeSync implements Watcher {
 			}
 		}
 	}
+	
+	/*
+	输出：
+	stat:3126,3184,1471767602457,1471776116006,5,9,0,0,3,3,3172
+	*/
 
 }

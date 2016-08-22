@@ -24,5 +24,10 @@ public class _3GetData {
 		System.out.println(stat);
 
 	}
-
+	
+	/*
+	conneted ok!
+	User [id=2, name=test2]
+	3428,3456,1471866939700,1471867629717,1,3,0,0,189,1,3450
+	*/
 }

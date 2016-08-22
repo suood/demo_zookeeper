@@ -45,5 +45,13 @@ public class _21CreateNodeSync implements Watcher {
 			doSomething();
 		}
 	}
+	
+	/*
+	输出
+	CONNECTING
+	收到事件：WatchedEvent state:SyncConnected type:None path:null
+	return path:/node2
+	do something
+	*/
 
 }

@@ -59,5 +59,15 @@ public class _22CreateNodeASync implements Watcher {
 			System.out.println(sb.toString());
 		}
 	}
+	
+	/*
+	输出：
+	CONNECTING
+	收到事件：WatchedEvent state:SyncConnected type:None path:null
+	rc=0
+	path=/node3
+	ctx=创建
+	name=/node3
+	*/
 
 }

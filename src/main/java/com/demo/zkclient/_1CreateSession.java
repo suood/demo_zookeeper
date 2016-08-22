@@ -15,5 +15,9 @@ public class _1CreateSession {
 		ZkClient zc = new ZkClient("192.168.10.5:2181", 10000, 10000, new SerializableSerializer());
 		System.out.println("conneted ok!");
 	}
-	
+
+	/*
+	console:
+	conneted ok!
+	*/
 }

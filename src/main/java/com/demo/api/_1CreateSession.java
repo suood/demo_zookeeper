@@ -40,5 +40,11 @@ public class _1CreateSession implements Watcher {
 	private void doSomething() {
 		System.out.println("do something");
 	}
-
+	
+	/*
+	输出：
+	CONNECTING
+	收到事件：WatchedEvent state:SyncConnected type:None path:null
+	do something
+	*/
 }

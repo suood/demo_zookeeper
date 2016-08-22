@@ -25,4 +25,9 @@ public class _2CreateNode {
 		System.out.println("created path:" + path);
 	}
 
+	/*
+	console:
+	conneted ok!
+	created path:/node2	
+	*/
 }

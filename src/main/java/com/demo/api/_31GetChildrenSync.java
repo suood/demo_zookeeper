@@ -57,4 +57,15 @@ public class _31GetChildrenSync implements Watcher {
 		}
 	}
 	
+	/*
+	输出：
+	CONNECTING
+	[node21, node22]
+	在服务器新增一个节点：
+	[zk: 27.154.242.214:5091(CONNECTED) 7] create /node2/node23 23
+	Created /node2/node23
+	可以看到控制台实时输出
+	[node21, node22, node23]
+	*/
+	
 }

@@ -19,4 +19,9 @@ public class _6DelNode {
 		System.out.println(e);
 	}
 
+	/*
+	console:
+	conneted ok!
+	true    
+	*/
 }

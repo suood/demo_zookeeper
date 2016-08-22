@@ -22,4 +22,8 @@ public class _7UpdateData {
 		zc.writeData("/node1", u, -1);
 	}
 
+	/*
+	console:
+	conneted ok!
+	*/
 }

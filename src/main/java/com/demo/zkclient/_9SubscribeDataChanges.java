@@ -28,4 +28,6 @@ public class _9SubscribeDataChanges {
 		}
 	}
 
+	// 在shell操作，可以看到对应的输出
+	
 }

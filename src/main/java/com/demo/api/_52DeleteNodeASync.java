@@ -48,5 +48,11 @@ public class _52DeleteNodeASync implements Watcher {
 			System.out.println(sb.toString());
 		}
 	}
-
+	
+	/*
+	输出：
+	rc=0
+	path/node2/node22
+	ctx=null
+	*/
 }

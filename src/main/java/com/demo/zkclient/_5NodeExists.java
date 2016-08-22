@@ -16,5 +16,10 @@ public class _5NodeExists {
 		boolean e = zc.exists("/node1");
 		System.out.println(e);
 	}
-
+	
+	/*
+	console:
+	conneted ok!
+	true    
+	*/
 }

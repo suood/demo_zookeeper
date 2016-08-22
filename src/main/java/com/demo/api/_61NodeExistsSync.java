@@ -57,5 +57,25 @@ public class _61NodeExistsSync implements Watcher {
 			}
 		}
 	}
-
+	
+	/*
+	输出：
+	3126,3150,1471767602457,1471771708937,1,9,0,0,3,3,3172
+	修改节点信息：
+	[zk: 27.154.242.214:5091(CONNECTED) 16] set /node2 2           
+	cZxid = 0xc36
+	ctime = Sun Aug 21 16:20:02 CST 2016
+	mZxid = 0xc67
+	mtime = Sun Aug 21 18:11:04 CST 2016
+	pZxid = 0xc64
+	cversion = 9
+	dataVersion = 2
+	aclVersion = 0
+	ephemeralOwner = 0x0
+	dataLength = 1
+	numChildren = 3
+	输出：
+	/node2 updated
+	3126,3175,1471767602457,1471774264662,2,9,0,0,1,3,3172
+	 */
 }

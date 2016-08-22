@@ -19,4 +19,9 @@ public class _4GetChild {
 		System.out.println(cList.toString());
 	}
 
+	/*
+	console:
+	conneted ok!
+	[node12]
+	*/
 }
