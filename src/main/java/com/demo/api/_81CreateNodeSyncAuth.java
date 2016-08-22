@@ -27,7 +27,7 @@ public class _81CreateNodeSyncAuth implements Watcher {
 	private static boolean somethingDone = false;
 
 	public static void main(String[] args) throws IOException, InterruptedException, NoSuchAlgorithmException {
-//		zookeeper = new ZooKeeper("27.154.242.214:5091", 5000, new _81CreateNodeSyncAuth());
+//		zookeeper = new ZooKeeper("192.168.10.5:2181", 5000, new _81CreateNodeSyncAuth());
 //		Thread.sleep(Integer.MAX_VALUE);
 		System.out.println(DigestAuthenticationProvider.generateDigest("jerome:123456"));
 	}

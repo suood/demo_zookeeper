@@ -20,7 +20,7 @@ public class _31GetChildrenSync implements Watcher {
 	private static ZooKeeper zooKeeper;
 
 	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
-		zooKeeper = new ZooKeeper("27.154.242.214:5091", 5000, new _31GetChildrenSync());
+		zooKeeper = new ZooKeeper("192.168.10.5:2181", 5000, new _31GetChildrenSync());
 		System.out.println(zooKeeper.getState().toString());
 		Thread.sleep(Integer.MAX_VALUE);
 	}

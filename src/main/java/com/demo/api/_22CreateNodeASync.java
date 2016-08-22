@@ -20,7 +20,7 @@ public class _22CreateNodeASync implements Watcher {
 	private static ZooKeeper zookeeper;
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		zookeeper = new ZooKeeper("27.154.242.214:5091", 5000, new _22CreateNodeASync());
+		zookeeper = new ZooKeeper("192.168.10.5:2181", 5000, new _22CreateNodeASync());
 		System.out.println(zookeeper.getState());
 		Thread.sleep(Integer.MAX_VALUE);
 	}
