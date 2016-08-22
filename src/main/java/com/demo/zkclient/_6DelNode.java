@@ -8,7 +8,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
  *
  * @author jerome_s@qq.com
  */
-public class _6NodeDel {
+public class _6DelNode {
 
 	public static void main(String[] args) {
 		ZkClient zc = new ZkClient("192.168.10.5:2181", 10000, 10000, new SerializableSerializer());

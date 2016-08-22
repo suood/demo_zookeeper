@@ -10,7 +10,7 @@ import com.demo.zkclient.model.User;
  *
  * @author jerome_s@qq.com
  */
-public class _7WriteData {
+public class _7UpdateData {
 
 	public static void main(String[] args) {
 		ZkClient zc = new ZkClient("192.168.10.5:2181", 10000, 10000, new SerializableSerializer());
