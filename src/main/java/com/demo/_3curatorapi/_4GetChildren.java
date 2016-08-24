@@ -1,20 +1,21 @@
-package com.demo._3curator;
+package com.demo._3curatorapi;
+
+import java.util.List;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.RetryUntilElapsed;
-import org.apache.zookeeper.data.Stat;
 
 /**
- * 判断节点是否存在
+ * 获取节点的子节点
  *
  * @author jerome_s@qq.com
  */
-public class _71CheckExists {
+public class _4GetChildren {
 
 	public static void main(String[] args) throws Exception {
-		
+
 		RetryPolicy retryPolicy = new RetryUntilElapsed(5000, 1000);
 
 		CuratorFramework client = CuratorFrameworkFactory
@@ -26,14 +27,13 @@ public class _71CheckExists {
 				.build();
 
 		client.start();
-		
-		Stat s = client.checkExists().forPath("/node1");
-		
-		System.out.println(s);
-		// 不存在返回null
+
+		List<String> cList = client.getChildren().forPath("/node1");
+
+		System.out.println(cList.toString());
 	}
 	
 	// console:
-	// 3501,3530,1471869513734,1471870458821,2,2,0,0,3,2,3503
+	// [node11, node12]
 
 }

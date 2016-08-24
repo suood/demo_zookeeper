@@ -1,18 +1,17 @@
-package com.demo._3curator;
-
-import java.util.List;
+package com.demo._3curatorapi;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.RetryUntilElapsed;
+import org.apache.zookeeper.CreateMode;
 
 /**
- * 获取节点的子节点
+ * 创建节点
  *
  * @author jerome_s@qq.com
  */
-public class _4GetChildren {
+public class _2CreateNode {
 
 	public static void main(String[] args) throws Exception {
 
@@ -28,12 +27,19 @@ public class _4GetChildren {
 
 		client.start();
 
-		List<String> cList = client.getChildren().forPath("/node1");
+		String path = client
+				.create()
+				.creatingParentsIfNeeded()
+				.withMode(CreateMode.EPHEMERAL)
+				.forPath("/node2",
+				"123".getBytes());
 
-		System.out.println(cList.toString());
+		System.out.println(path);
+
+		Thread.sleep(Integer.MAX_VALUE);
 	}
 	
 	// console:
-	// [node11, node12]
-
+	// /node2
+	
 }

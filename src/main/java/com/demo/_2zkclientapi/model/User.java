@@ -1,4 +1,4 @@
-package com.demo._2zkclient.model;
+package com.demo._2zkclientapi.model;
 
 import java.io.Serializable;
 

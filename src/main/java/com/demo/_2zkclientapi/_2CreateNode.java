@@ -1,10 +1,10 @@
-package com.demo._2zkclient;
+package com.demo._2zkclientapi;
 
 import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 import org.apache.zookeeper.CreateMode;
 
-import com.demo._2zkclient.model.User;
+import com.demo._2zkclientapi.model.User;
 
 /**
  * 创建节点

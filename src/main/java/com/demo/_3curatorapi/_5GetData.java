@@ -1,4 +1,4 @@
-package com.demo._3curator;
+package com.demo._3curatorapi;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;

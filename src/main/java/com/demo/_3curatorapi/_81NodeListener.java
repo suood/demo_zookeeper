@@ -1,17 +1,18 @@
-package com.demo._3curator;
+package com.demo._3curatorapi;
 
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
+import org.apache.curator.framework.recipes.cache.NodeCache;
+import org.apache.curator.framework.recipes.cache.NodeCacheListener;
 import org.apache.curator.retry.RetryUntilElapsed;
-import org.apache.zookeeper.CreateMode;
 
 /**
- * 创建节点
+ * 节点监听
  *
  * @author jerome_s@qq.com
  */
-public class _2CreateNode {
+public class _81NodeListener {
 
 	public static void main(String[] args) throws Exception {
 
@@ -27,19 +28,23 @@ public class _2CreateNode {
 
 		client.start();
 
-		String path = client
-				.create()
-				.creatingParentsIfNeeded()
-				.withMode(CreateMode.EPHEMERAL)
-				.forPath("/node2",
-				"123".getBytes());
-
-		System.out.println(path);
+		@SuppressWarnings("resource")
+		final NodeCache cache = new NodeCache(client, "/node1");
+		cache.start();
+		cache.getListenable().addListener(new NodeCacheListener() {
+			public void nodeChanged() throws Exception {
+				byte[] ret = cache.getCurrentData().getData();
+				System.out.println("new data:" + new String(ret));
+			}
+		});
 
 		Thread.sleep(Integer.MAX_VALUE);
 	}
 	
 	// console:
-	// /node2
-	
+	// new data:111
+	// ## 在控制台 修改节点数据: set /node1 222
+	// console:
+	// new data:222
+
 }

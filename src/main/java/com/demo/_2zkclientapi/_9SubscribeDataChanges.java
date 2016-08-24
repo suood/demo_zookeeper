@@ -1,4 +1,4 @@
-package com.demo._2zkclient;
+package com.demo._2zkclientapi;
 
 import org.I0Itec.zkclient.IZkDataListener;
 import org.I0Itec.zkclient.ZkClient;

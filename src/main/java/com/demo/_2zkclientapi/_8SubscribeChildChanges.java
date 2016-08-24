@@ -1,4 +1,4 @@
-package com.demo._2zkclient;
+package com.demo._2zkclientapi;
 
 import java.util.List;
 
