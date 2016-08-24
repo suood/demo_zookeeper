@@ -13,7 +13,7 @@ import org.I0Itec.zkclient.exception.ZkNodeExistsException;
 import org.apache.zookeeper.CreateMode;
 
 /**
- * master 选举 主工作类
+ * master选举 主工作类
  *
  * @author jerome_s@qq.com
  */

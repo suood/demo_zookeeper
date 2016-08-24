@@ -9,7 +9,7 @@ import org.I0Itec.zkclient.ZkClient;
 import org.I0Itec.zkclient.serialize.SerializableSerializer;
 
 /**
- * master 选举  调度器， 用来启动和停止Worker Server
+ * master选举调度器，用来启动和停止Worker Server
  *
  * @author jerome_s@qq.com
  */

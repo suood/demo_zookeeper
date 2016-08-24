@@ -3,7 +3,7 @@ package com.demo._4master;
 import java.io.Serializable;
 
 /**
- * master 选举  描述Worker Server的基本信息
+ * master选举 描述Worker Server的基本信息
  *
  * @author jerome_s@qq.com
  */
