@@ -23,9 +23,9 @@ public class LeaderSelectorZkClient {
 
 	public static void main(String[] args) throws Exception {
 		// 保存所有zkClient的列表
-		List<ZkClient> clients = new ArrayList<ZkClient>();
+		List<ZkClient> clients = new ArrayList<>();
 		// 保存所有服务器的列表
-		List<WorkServer> workServers = new ArrayList<WorkServer>();
+		List<WorkServer> workServers = new ArrayList<>();
 
 		try {
 			for (int i = 0; i < CLIENT_QTY; ++i) {
@@ -43,7 +43,7 @@ public class LeaderSelectorZkClient {
 				workServer.setZkClient(client);
 				workServers.add(workServer);
 				
-				workServer.start();
+				workServer.startServer();
 			}
 
 			System.out.println("敲回车键退出！\n");

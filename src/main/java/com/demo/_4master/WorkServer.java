@@ -82,13 +82,7 @@ public class WorkServer {
 		};
 	}
 
-	/**
-	 * 启动服务器
-	 * 
-	 * @author jerome_s@qq.com
-	 * @throws Exception
-	 */
-	public void start() throws Exception {
+	public void startServer() throws Exception {
 		System.out.println(this.serverData.getName() + "is start!");
 		
 		if (running) {

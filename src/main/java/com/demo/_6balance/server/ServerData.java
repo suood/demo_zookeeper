@@ -45,7 +45,6 @@ public class ServerData implements Serializable, Comparable<ServerData> {
 	}
 
 	public int compareTo(ServerData o) {
-		// TODO Auto-generated method stub
 		return this.getBalance().compareTo(o.getBalance());
 	}
 
