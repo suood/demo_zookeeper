@@ -15,7 +15,7 @@ import org.apache.zookeeper.CreateMode;
 /**
  * master选举 主工作类
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class WorkServer {
 
@@ -101,7 +101,7 @@ public class WorkServer {
 	/**
 	 * 关闭服务器
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @throws Exception
 	 */
 	public void stop() throws Exception {
@@ -122,7 +122,7 @@ public class WorkServer {
 	/**
 	 * 争抢master节点
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 */
 	private void takeMaster() {
 		
@@ -162,7 +162,7 @@ public class WorkServer {
 	/**
 	 * 释放master
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 */
 	private void releaseMaster() {
 		if (checkIsMaster()) {
@@ -173,7 +173,7 @@ public class WorkServer {
 	/**
 	 * 检查是否是master
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @return
 	 */
 	private boolean checkIsMaster() {

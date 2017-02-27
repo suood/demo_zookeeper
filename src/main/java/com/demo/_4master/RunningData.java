@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * master选举 描述Worker Server的基本信息
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class RunningData implements Serializable {
 

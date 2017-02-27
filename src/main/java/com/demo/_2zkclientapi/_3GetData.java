@@ -9,7 +9,7 @@ import com.demo._2zkclientapi.model.User;
 /**
  * 获取节点数据
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _3GetData {
 

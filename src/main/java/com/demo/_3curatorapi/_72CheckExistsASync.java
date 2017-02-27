@@ -14,7 +14,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 判断节点是否存在(异步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _72CheckExistsASync {
 

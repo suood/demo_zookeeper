@@ -6,7 +6,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 检测节点是否存在
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _5NodeExists {
 

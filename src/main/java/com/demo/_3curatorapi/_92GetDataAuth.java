@@ -9,7 +9,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 权限 - 创建节点
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _92GetDataAuth {
 

@@ -10,7 +10,7 @@ import org.apache.curator.retry.RetryUntilElapsed;
 /**
  * 获取节点的子节点
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _4GetChildren {
 

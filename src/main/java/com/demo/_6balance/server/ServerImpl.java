@@ -64,7 +64,7 @@ public class ServerImpl implements Server {
 	/**
 	 * 初始化服务端(注册节点到zookeeper)
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @throws Exception
 	 */
 	private void initRunning() throws Exception {

@@ -9,7 +9,7 @@ import org.I0Itec.zkclient.ZkClient;
 /**
  * 简单的分布式队列(阻塞) 比较合理的做法
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/30 20:19
  */
 public class DistributedBlockingQueue<T> extends DistributedSimpleQueue<T> {

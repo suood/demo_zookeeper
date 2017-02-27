@@ -9,7 +9,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 获取节点的数据
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _5GetData {
 

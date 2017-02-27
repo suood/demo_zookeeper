@@ -14,7 +14,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 获取节点数据(异步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _42GetDataASync implements Watcher {
 

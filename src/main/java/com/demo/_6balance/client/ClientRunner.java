@@ -10,7 +10,7 @@ import com.demo._6balance.server.ServerData;
 /**
  * 调度类
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ClientRunner {
 

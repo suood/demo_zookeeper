@@ -3,7 +3,7 @@ package com.demo._9nameservice;
 /**
  * 测试主键生成器
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/27 9:44
  */
 public class TestIdMasker {

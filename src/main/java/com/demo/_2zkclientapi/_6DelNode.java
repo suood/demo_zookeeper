@@ -6,7 +6,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 删除节点
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _6DelNode {
 

@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * 服务器和客户端公用的类，计算负载等使用
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ServerData implements Serializable, Comparable<ServerData> {
 

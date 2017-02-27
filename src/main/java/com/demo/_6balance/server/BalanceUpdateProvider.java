@@ -3,7 +3,7 @@ package com.demo._6balance.server;
 /**
  * 负载均衡更新器
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public interface BalanceUpdateProvider {
 

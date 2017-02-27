@@ -13,7 +13,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 修改节点数据(同步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _71UpdateNodeSync implements Watcher {
 

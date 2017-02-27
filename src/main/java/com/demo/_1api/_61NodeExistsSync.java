@@ -13,7 +13,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 判断节点是否存在(同步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _61NodeExistsSync implements Watcher {
 

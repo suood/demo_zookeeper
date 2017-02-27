@@ -11,7 +11,7 @@ import org.apache.curator.retry.RetryUntilElapsed;
 /**
  * 子节点监听
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _82NodeChildrenListener {
 

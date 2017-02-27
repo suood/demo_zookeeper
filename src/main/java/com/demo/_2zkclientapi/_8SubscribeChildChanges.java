@@ -9,7 +9,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 订阅节点的子节点变化（可以监听不存在的节点当他创建的时候接收到通知）
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _8SubscribeChildChanges {
 

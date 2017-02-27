@@ -19,7 +19,7 @@ import org.apache.zookeeper.server.auth.DigestAuthenticationProvider;
 /**
  * 设置权限
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _81CreateNodeSyncAuth implements Watcher {
 
@@ -42,7 +42,7 @@ public class _81CreateNodeSyncAuth implements Watcher {
 	 * 
 	 * 权限组合: scheme + ID + permission
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 */
 	private void doSomething() {
 		try {

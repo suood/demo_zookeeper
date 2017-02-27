@@ -10,7 +10,7 @@ import org.apache.curator.retry.RetryUntilElapsed;
 /**
  * 节点监听
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _81NodeListener {
 

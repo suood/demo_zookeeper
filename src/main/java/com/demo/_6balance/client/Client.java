@@ -3,14 +3,14 @@ package com.demo._6balance.client;
 /**
  * 客户端接口
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public interface Client {
 
 	/**
 	 * 与服务器连接
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @throws Exception
 	 */
 	public void connect() throws Exception;
@@ -18,7 +18,7 @@ public interface Client {
 	/**
 	 * 与服务器断开连接
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @throws Exception
 	 */
 	public void disConnect() throws Exception;

@@ -18,7 +18,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 /**
  * 客户端实现类
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ClientImpl implements Client {
 

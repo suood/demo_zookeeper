@@ -7,7 +7,7 @@ import org.I0Itec.zkclient.serialize.BytesPushThroughSerializer;
 /**
  * 订阅节点的子节点内容的变化
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _9SubscribeDataChanges {
 

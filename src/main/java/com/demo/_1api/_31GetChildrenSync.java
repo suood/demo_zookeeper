@@ -13,7 +13,7 @@ import org.apache.zookeeper.ZooKeeper;
 /**
  * 获取节点(同步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _31GetChildrenSync implements Watcher {
 

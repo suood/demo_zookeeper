@@ -12,7 +12,7 @@ import com.demo._6balance.server.ServerData;
 /**
  * 默认负载均衡算法实现
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class DefaultBalanceProvider extends AbstractBalanceProvider<ServerData> {
 

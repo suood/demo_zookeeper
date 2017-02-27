@@ -7,7 +7,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 测试简单的分布式队列
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/30 19:48
  */
 public class TestDistributedSimpleQueue {

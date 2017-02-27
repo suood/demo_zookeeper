@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 简单的 互斥锁
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/26 22:39
  */
 public class LockImpl extends BaseLock implements LockI {

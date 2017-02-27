@@ -5,7 +5,7 @@ import org.I0Itec.zkclient.ZkClient;
 /**
  * Zookeeper注册内容
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ZooKeeperRegistContext {
 

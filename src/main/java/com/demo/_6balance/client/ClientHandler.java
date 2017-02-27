@@ -6,7 +6,7 @@ import io.netty.channel.ChannelHandlerContext;
 /**
  * 处理与服务器之间的通信
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ClientHandler extends ChannelHandlerAdapter {
 

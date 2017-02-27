@@ -8,7 +8,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 获取子节点
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _4GetChild {
 

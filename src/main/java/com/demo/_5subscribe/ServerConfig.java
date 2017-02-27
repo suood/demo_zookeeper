@@ -3,7 +3,7 @@ package com.demo._5subscribe;
 /**
  * 记录WorkServer的配置信息
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ServerConfig {
 

@@ -55,7 +55,7 @@ public class WorkServer {
 	/**
 	 * 注册自己的信息到Server节点(服务发现,发布)
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 */
 	private void registMe() {
 		System.out.println("work server regist to /server.");

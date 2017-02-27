@@ -9,7 +9,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 修改节点数据
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _6UpdateData {
 

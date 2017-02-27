@@ -8,7 +8,7 @@ import io.netty.channel.ChannelHandlerContext;
  * 处理与客户端之间的连接
  * 客户端连接断开等触发此类
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ServerHandler extends ChannelHandlerAdapter {
 

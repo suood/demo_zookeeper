@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 抽象负载均衡算法
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  * @param <T>
  */
 public abstract class AbstractBalanceProvider<T> implements BalanceProvider<T> {
@@ -13,7 +13,7 @@ public abstract class AbstractBalanceProvider<T> implements BalanceProvider<T> {
 	/**
 	 * 负载均衡算法
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @param items
 	 * @return
 	 */
@@ -22,7 +22,7 @@ public abstract class AbstractBalanceProvider<T> implements BalanceProvider<T> {
 	/**
 	 * 获取负载均衡服务器
 	 * 
-	 * @author jerome_s@qq.com
+	 * @author Alexander
 	 * @return
 	 */
 	protected abstract List<T> getBalanceItems();

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 测试分布式锁
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/26 22:53
  */
 public class TestLock {

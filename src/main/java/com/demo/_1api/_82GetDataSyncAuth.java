@@ -13,7 +13,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 根据权限获取数据
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _82GetDataSyncAuth implements Watcher {
 

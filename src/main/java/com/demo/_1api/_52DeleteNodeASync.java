@@ -13,7 +13,7 @@ import org.apache.zookeeper.ZooKeeper;
 /**
  * 删除节点(异步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _52DeleteNodeASync implements Watcher {
 

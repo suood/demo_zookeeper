@@ -13,7 +13,7 @@ import org.apache.zookeeper.ZooKeeper;
 /**
  * 创建节点(同步)
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _21CreateNodeSync implements Watcher {
 
@@ -38,7 +38,6 @@ public class _21CreateNodeSync implements Watcher {
 		System.out.println("do something");
 	}
 
-	@Override
 	public void process(WatchedEvent event) {
 		System.out.println("收到事件：" + event);
 		if (event.getState() == KeeperState.SyncConnected) {

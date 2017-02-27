@@ -10,7 +10,7 @@ import org.apache.zookeeper.ZooKeeper;
 /**
  * 建立连接
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _1CreateSession implements Watcher {
 

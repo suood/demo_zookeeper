@@ -6,7 +6,7 @@ import org.I0Itec.zkclient.exception.ZkNoNodeException;
 /**
  * 默认的服务端启动时的注册过程
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class DefaultRegistProvider implements RegistProvider {
 

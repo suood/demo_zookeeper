@@ -3,7 +3,7 @@ package com.demo._6balance.server;
 /**
  * 服务端启动时的注册过程
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public interface RegistProvider {
 

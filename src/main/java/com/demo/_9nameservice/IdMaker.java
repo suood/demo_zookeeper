@@ -11,7 +11,7 @@ import org.I0Itec.zkclient.serialize.BytesPushThroughSerializer;
 /**
  * 分布式的id生成器
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/27 9:46
  */
 public class IdMaker {

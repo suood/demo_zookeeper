@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 调度类
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class ServerRunner {
 

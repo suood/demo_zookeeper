@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 分布式锁接口
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/26 22:49
  */
 public interface LockI {

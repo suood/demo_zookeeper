@@ -6,7 +6,7 @@ import org.I0Itec.zkclient.serialize.SerializableSerializer;
 /**
  * 创建连接
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _1CreateSession {
 

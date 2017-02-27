@@ -15,7 +15,7 @@ import org.apache.zookeeper.server.auth.DigestAuthenticationProvider;
 /**
  * 权限 - 创建节点
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class _91CreateNodeAuth {
 

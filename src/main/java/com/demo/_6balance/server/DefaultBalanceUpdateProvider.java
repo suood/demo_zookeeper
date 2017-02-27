@@ -7,7 +7,7 @@ import org.apache.zookeeper.data.Stat;
 /**
  * 默认负载均衡更新器
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class DefaultBalanceUpdateProvider implements BalanceUpdateProvider {
 

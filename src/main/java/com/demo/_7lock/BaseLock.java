@@ -14,7 +14,7 @@ import org.I0Itec.zkclient.exception.ZkNoNodeException;
  * 分布式锁 基础类
  * 主要用于和Zookeeper交互
  *
- * @author jerome_s@qq.com
+ * @author Alexander
  * @date 2016/8/26 22:51
  */
 public class BaseLock {

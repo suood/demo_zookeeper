@@ -13,7 +13,7 @@ import org.I0Itec.zkclient.serialize.BytesPushThroughSerializer;
  * 负责驱动WordServer和ManageServer
  * 主要应用 配置管理、服务发现
  * 
- * @author jerome_s@qq.com
+ * @author Alexander
  */
 public class SubscribeZkClient {
 
